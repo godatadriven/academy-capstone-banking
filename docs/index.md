@@ -8,39 +8,28 @@ Welcome to your capstone. This site covers what you're building, why it matters,
 
 -   :material-flag-checkered: **Capstone Overview**
 
-    Why this project exists, what success looks like, the use cases you can choose from, and the end-to-end journey you'll follow.
+    A full overview of the project, the goal, what's required and a guide on how to get started.
 
     [:octicons-arrow-right-24: Start here](overview/goal-and-context.md)
 
--   :material-rocket-launch: **Getting Started**
-
-    Team setup, the data you'll work with, the tools and constraints you're operating under, and the milestone timeline.
-
-    [:octicons-arrow-right-24: Get set up](getting-started/team-and-roles.md)
-
--   :material-map-marker-path: **Project Guide**
+-   :material-rocket-launch: **Project Guide**
 
     A stage-by-stage walkthrough of the project - from framing the business problem to delivering the final stakeholder story.
 
-    [:octicons-arrow-right-24: See the guide](project-guide/index.md)
+    [:octicons-arrow-right-24: See Project Guide](project-guide/checklist.md)
 
--   :material-clipboard-check-outline: **Deliverables**
+-   :material-presentation-play: **Final Presentation**
 
-    Exactly what you need to produce, what's required vs. optional, and the **Definition of Done** for the whole project.
+    A description of all the end deliverables at the end of the capstone project including the presentation guidelines and supporting documentation.
 
-    [:octicons-arrow-right-24: See deliverables](deliverables/required-deliverables.md)
+    [:octicons-arrow-right-24: See the Final Presentations](final-presentation/index.md)
 
--   :material-star-check-outline: **Assessment**
+-   :material-map-marker-path: **Program Structure**
 
-    How the project is assessed, organised by dimension, and describing what "good" looks like.
+    A high-level view of the full Learning Journey, specifying when the journey splits per role, and what you will learn at the end of each module.
 
-    [:octicons-arrow-right-24: See assessment](assessment/criteria.md)
+    [:octicons-arrow-right-24: See Program Structure](program-structure/index.md)
 
--   :material-school-outline: **Learning Objectives**
-
-    The learning objectives from your six-month journey that this capstone is designed to integrate and demonstrate.
-
-    [:octicons-arrow-right-24: See objectives](learning-objectives.md)
 
 </div>
 

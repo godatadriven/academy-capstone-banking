@@ -92,17 +92,19 @@ extra:
 
 nav:
   - Home: index.md
-  - Capstone Overview:
-      - Goal & Context: overview/goal-and-context.md
-      - Team & Roles: getting-started/team-and-roles.md
-      - Use Cases: overview/use-cases.md
-      - Data: getting-started/data.md
-      - Tools & Constraints: getting-started/tools-and-constraints.md
-      - Milestones: getting-started/milestones.md
-      - Project Journey: overview/project-journey.md
-      - What Success Looks Like: overview/what-success-looks-like.md
+  - Capstone Project:
+      - Overview: 
+        - Goal & Context: overview/goal-and-context.md
+        - Use Cases: overview/use-cases.md 
+        - Project Journey: overview/project-journey.md
+        - What Success Looks Like: overview/what-success-looks-like.md
+      - Getting started:
+        - Data: getting-started/data.md
+        - Team & Roles: getting-started/team-and-roles.md
+        - Tools & Constraints: getting-started/tools-and-constraints.md
+        - Milestones: getting-started/milestones.md
   - Project Guide:
-      - Checklist: checklist.md
+      - Checklist: project-guide/checklist.md
       - Project Guide: project-guide/deep-dive.md
       - Dimension Breakdown: 
         - 1. Frame the Problem: project-guide/01-frame-the-problem.md
@@ -119,10 +121,14 @@ nav:
         - 12. Build the Power BI Dashboard: project-guide/12-power-bi-dashboard.md
         - 13. Build the Story: project-guide/13-build-the-story.md
   - Final Presentation:
-      - final-presentation/index.md
-      - Supporting Documentation: final-presentation/supporting-documentation.md
-      - Definition of Done: final-presentation/definition-of-done.md
-      - Assessment Criteria: final-presentation/assessment-criteria.md
-      - Assessment Rubric: final-presentation/assessment-rubric.md
+    - final-presentation/index.md
+    - Supporting Documentation: final-presentation/supporting-documentation.md
+    - Definition of Done: final-presentation/definition-of-done.md
+    - Assessment Criteria: final-presentation/assessment-criteria.md
+    - Assessment Rubric: final-presentation/assessment-rubric.md
+  - Program Structure:
+    - program-structure/index.md
+    - The Full Learning Journey: program-structure/learning-journey.md
+    - Learnin Objectives: program-structure/learning-objectives.md
   # - Learning Objectives: learning-objectives.md
   # - Open Items: open-items.md
