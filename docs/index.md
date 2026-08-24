@@ -1,5 +1,10 @@
 # Data Bootcamp Capstone Project
 
+!!! warning "Note: Unfinished product - will be tailored"
+    The website you are on is an incomplete version of what the final trainee handbook will look like.
+    
+    The purpose of this site is to give an indication of what the capstone project will entail, as well as a preview of the handbook that trainees will receive and work from.
+
 Welcome to your capstone. This site covers what you're building, why it matters, what you need to deliver, and how it will be assessed.
 
 ## Page navigation
