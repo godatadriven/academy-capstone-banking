@@ -1,0 +1,78 @@
+/* Light-touch styling on top of Material defaults - clarity over decoration */
+
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  margin-top: 2em;
+}
+
+/* Grid cards used on overview / landing pages */
+.grid.cards > ul {
+  display: grid;
+  grid-gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+.grid.cards > ul > li {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem;
+  list-style: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Placeholder highlighting: [TO BE CONFIRMED] style tags */
+.md-typeset code:has(> span.placeholder) {
+  background: var(--md-warning-bg-color, #fff3cd);
+}
+
+/* Simple "MUST / SHOULD / COULD" pill labels used across Project Guide pages */
+.pill {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  text-transform: uppercase;
+  margin-right: 0.4em;
+}
+
+.pill-must {
+  background: #fde2e1;
+  color: #8a1f1f;
+}
+
+.pill-should {
+  background: #fff1cc;
+  color: #7a5b00;
+}
+
+.pill-could {
+  background: #e0f0ff;
+  color: #0a4a7a;
+}
+
+[data-md-color-scheme="slate"] .pill-must {
+  background: #4a1f1f;
+  color: #ffb4b0;
+}
+
+[data-md-color-scheme="slate"] .pill-should {
+  background: #4a3b00;
+  color: #ffe08a;
+}
+
+[data-md-color-scheme="slate"] .pill-could {
+  background: #0a2c47;
+  color: #9cd2ff;
+}

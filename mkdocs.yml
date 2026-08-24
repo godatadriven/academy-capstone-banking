@@ -1,0 +1,126 @@
+site_name: Data Bootcamp Capstone Project
+site_description: Official project brief and guide for the 6-month Data Bootcamp capstone project
+site_author: Data & Analytics Academy
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Roboto Mono
+  icon:
+    logo: material/finance
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - header.autohide
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.keys
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  status:
+    new: New
+  generator: false
+
+nav:
+  - Home: index.md
+  - Capstone Overview:
+      - Goal & Context: overview/goal-and-context.md
+      - What Success Looks Like: overview/what-success-looks-like.md
+      - Use Cases: overview/use-cases.md
+      - Project Journey: overview/project-journey.md
+  - Getting Started:
+      - Team & Roles: getting-started/team-and-roles.md
+      - Data: getting-started/data.md
+      - Tools & Constraints: getting-started/tools-and-constraints.md
+      - Milestones: getting-started/milestones.md
+  - Project Guide:
+      - project-guide/index.md
+      - 1. Frame the Problem: project-guide/01-frame-the-problem.md
+      - 2. Size the Opportunity: project-guide/02-size-the-opportunity.md
+      - 3. Understand the Data: project-guide/03-understand-the-data.md
+      - 4. Assess Data Quality: project-guide/04-assess-data-quality.md
+      - 5. Explore the Data: project-guide/05-explore-the-data.md
+      - 6. Build the Model: project-guide/06-build-the-model.md
+      - 7. Quantify Business Impact: project-guide/07-quantify-business-impact.md
+      - 8. Build the MVP: project-guide/08-build-the-mvp.md
+      - 9. Consider Production Readiness: project-guide/09-production-readiness.md
+      - 10. Assess GenAI: project-guide/10-assess-genai.md
+      - 11. Assess Sustainability: project-guide/11-assess-sustainability.md
+      - 12. Build the Power BI Dashboard: project-guide/12-power-bi-dashboard.md
+      - 13. Build the Story: project-guide/13-build-the-story.md
+  - Deliverables:
+      - Required Deliverables: deliverables/required-deliverables.md
+      - Technical Documentation: deliverables/technical-documentation.md
+      - Definition of Done: deliverables/definition-of-done.md
+  - Assessment:
+      - Assessment Criteria: assessment/criteria.md
+      - Assessment Rubric: assessment/rubric.md
+  - Learning Objectives: learning-objectives.md
+  - Capstone Checklist: checklist.md
+  - Open Items: open-items.md
