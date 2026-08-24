@@ -2,9 +2,9 @@
 
 ## The goal
 
-The capstone gives you the opportunity to apply everything from your six-month journey - from framing a business problem through to a working analytical or modelled solution and a stakeholder-ready story - by solving a **realistic bank business problem, end-to-end**.
+For your capstone project, you are asked to investigate a business opportunity and prepare an analytical or modelled solution that can be acted upon, and come back to us with a clear recommendation - backed by a dashboard and a presentation we can use to make a decision.
 
-It is **one coherent project** that should read, from start to finish, as something an analytics team could realistically hand to a stakeholder.
+The capstone gives you the opportunity to apply everything from your six-month journey - from framing a business problem through to a working analytical or modelled solution and a stakeholder-ready story - by solving a **business problem, end-to-end**.
 
 ## What does this project test?
 
@@ -31,16 +31,3 @@ flowchart LR
 
 !!! warning "Don't leave it to the end"
     Trainees who treat the capstone as a two-week sprint at the end of the bootcamp will produce weaker work than trainees who build it up stage by stage. See [Milestones](../getting-started/milestones.md) for the expected pacing.
-
-## What this project is not
-
-- It is **not** a data science tutorial with a single correct notebook to reproduce.
-- It is **not** primarily a test of algorithm sophistication. A well-reasoned baseline explained clearly beats an unexplained "black box" model with a marginally better score.
-- It is **not** a checklist exercise where you tick off stages without connecting them. Reviewers will look for how each stage **builds on** the one before it - see [What Success Looks Like](what-success-looks-like.md).
-- It is **not** a fully deployed production system. See [Consider Production Readiness](../project-guide/09-production-readiness.md) for what level of engineering maturity is actually expected.
-
-## Where to go next
-
-- [What Success Looks Like](what-success-looks-like.md) - what a strong capstone actually demonstrates.
-- [Use Cases](use-cases.md) - the banking business problems you can choose from.
-- [Project Journey](project-journey.md) - the full end-to-end journey, visualised.

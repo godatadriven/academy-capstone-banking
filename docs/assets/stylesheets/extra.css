@@ -1,5 +1,39 @@
 /* Light-touch styling on top of Material defaults - clarity over decoration */
 
+/* Brand palette: teal (primary), gold (accent), grey (neutral).
+   Material only accepts named palettes via theme.palette.primary/accent, so
+   "custom" is set in mkdocs.yml and the actual brand colors are defined here -
+   see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #009488;
+  --md-primary-fg-color--light: #40afa6;
+  --md-primary-fg-color--dark: #006f66;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+
+  --md-accent-fg-color: #f9bd20;
+  --md-accent-fg-color--transparent: rgba(249, 189, 32, 0.1);
+  --md-accent-bg-color: #1a1a1a;
+  --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
+
+  --brand-neutral: #878787;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #009488;
+  --md-primary-fg-color--light: #40afa6;
+  --md-primary-fg-color--dark: #006f66;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+
+  --md-accent-fg-color: #f9bd20;
+  --md-accent-fg-color--transparent: rgba(249, 189, 32, 0.15);
+  --md-accent-bg-color: #1a1a1a;
+  --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
+
+  --brand-neutral: #878787;
+}
+
 .md-typeset h1 {
   font-weight: 700;
 }
@@ -18,16 +52,18 @@
 }
 
 .grid.cards > ul > li {
-  border: 1px solid var(--md-default-fg-color--lightest);
+  border: 1px solid var(--brand-neutral);
   border-radius: 0.5rem;
   padding: 1rem 1.2rem;
   list-style: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  opacity: 0.9;
+  transition: border-color 0.2s, box-shadow 0.2s, opacity 0.2s;
 }
 
 .grid.cards > ul > li:hover {
   border-color: var(--md-accent-fg-color);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  opacity: 1;
 }
 
 /* Placeholder highlighting: [TO BE CONFIRMED] style tags */

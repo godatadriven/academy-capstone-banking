@@ -1,6 +1,8 @@
-# Technical Documentation
+# Supporting Documentation
 
-Every capstone must ship with documentation that lets someone else understand, rerun, and extend your work. This isn't a formality - it's a direct test of the reproducibility and engineering-awareness principles covered in [Consider Production Readiness](../project-guide/09-production-readiness.md).
+Every capstone must ship with documentation that lets someone else understand, rerun, and extend your work. This is a direct test of the reproducibility and engineering-awareness principles. 
+
+    covered in [Consider Production Readiness](../project-guide/09-production-readiness.md).
 
 ## What must be included
 
@@ -59,8 +61,3 @@ Specific enough that someone with the same data access could reproduce your key 
 | Assumptions are listed in one place, with reasoning | Assumptions are buried inside code comments only |
 | Structure explanation matches what's actually in the repo | Structure described doesn't match reality |
 | Reproducibility instructions were tested by someone who didn't build the project | Instructions assume knowledge only the author has |
-
-## Where to go next
-
-- [Required Deliverables](required-deliverables.md#13-technical-documentation)
-- [Definition of Done](definition-of-done.md)

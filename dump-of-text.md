@@ -1,0 +1,1 @@
+During the Data Bootcamp, you will spend six months building skills in data engineering, analytics, visualisation and machine learning. The capstone is where those skills come together into one thing: a realistic, end-to-end banking analytics project that starts with a business problem and ends with a stakeholder decision.

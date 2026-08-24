@@ -2,14 +2,7 @@
 
 Welcome to your capstone. This site covers what you're building, why it matters, what you need to deliver, and how it will be assessed.
 
-During the Data Bootcamp, you will spend six months building skills in data engineering, analytics, visualisation and machine learning. The capstone is where those skills come together into one thing: a realistic, end-to-end banking analytics project that starts with a business problem and ends with a stakeholder decision.
-
-!!! info "What exactly do I need to do?"
-    Read the **[Capstone Overview](overview/goal-and-context.md)** to get the overall requirements for the project, and then work through the **[Project Guide](project-guide/index.md)** to go through stage by stage. 
-    
-    The **[Capstone Checklist](checklist.md)** tells you exactly what "done" looks like for each stage.
-
-## How this site is organised
+## Page navigation
 
 <div class="grid cards" markdown>
 

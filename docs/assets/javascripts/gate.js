@@ -1,5 +1,5 @@
 // Lightweight client-side password gate for pre-release deployments of this site.
-// NOTE: this is a soft gate, not real access control — the page content ships in the
+// NOTE: this is a soft gate, not real access control - the page content ships in the
 // built HTML/JS regardless, so this only deters casual access, not a determined viewer.
 // For genuine access control, use your hosting provider's auth (e.g. Netlify password
 // protection, Cloudflare Access, GitHub Pages behind a private network) instead.
@@ -49,7 +49,7 @@
           document.documentElement.classList.remove("capstone-gate-locked");
           overlay.remove();
         } else {
-          errorEl.textContent = "Incorrect password — try again.";
+          errorEl.textContent = "Incorrect password - try again.";
           input.value = "";
           input.focus();
         }

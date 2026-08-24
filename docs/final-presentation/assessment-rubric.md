@@ -71,8 +71,3 @@ This rubric describes what each level of quality looks like for each [assessment
 | Emerging | Meets expectations | Strong | Excellent |
 |---|---|---|---|
 | Limitations only surface when asked | Limitations stated in documentation | Limitations are specific and tied to evidence | Team proactively distinguishes what they're confident about from what they're not, throughout |
-
-## Where to go next
-
-- [Assessment Criteria](criteria.md)
-- [Definition of Done](../deliverables/definition-of-done.md)

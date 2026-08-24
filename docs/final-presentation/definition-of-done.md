@@ -49,8 +49,3 @@ The project is complete when your team can confidently and specifically answer a
 | The presentation ends with a decision the stakeholder can actually say yes/no to | The presentation ends with a summary of findings and no explicit ask |
 | Limitations are stated plainly, without being buried | Limitations only surface when asked directly |
 | Assumptions are documented and consistent across opportunity sizing, modelling and impact | Different numbers appear in different places with no reconciliation |
-
-## Where to go next
-
-- [Capstone Checklist](../checklist.md) - the itemised version of this page.
-- [Assessment Rubric](../assessment/rubric.md) - how "done" translates into a mark.
