@@ -82,6 +82,9 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/gate.js
+
 extra:
   status:
     new: New

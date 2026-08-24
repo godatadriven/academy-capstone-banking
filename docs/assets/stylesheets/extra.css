@@ -76,3 +76,76 @@
   background: #0a2c47;
   color: #9cd2ff;
 }
+
+/* Client-side password gate (see docs/assets/javascripts/gate.js) */
+html.capstone-gate-locked body > *:not(#capstone-gate-overlay) {
+  display: none !important;
+}
+
+html.capstone-gate-locked {
+  overflow: hidden;
+}
+
+#capstone-gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+#capstone-gate-overlay .capstone-gate-box {
+  max-width: 22rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#capstone-gate-overlay h1 {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+}
+
+#capstone-gate-overlay p {
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+}
+
+#capstone-gate-overlay form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
+}
+
+#capstone-gate-overlay input[type="password"] {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+#capstone-gate-overlay button {
+  padding: 0.55rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#capstone-gate-overlay button:hover {
+  opacity: 0.9;
+}
+
+#capstone-gate-error {
+  color: #b3261e;
+  font-size: 0.85rem;
+  min-height: 1.1em;
+}
