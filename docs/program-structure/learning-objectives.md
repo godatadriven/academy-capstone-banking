@@ -77,8 +77,3 @@ Each section below is mapped to the [Project Guide](project-guide/index.md) stag
 ## Why this mapping matters
 
 If you find yourself unable to demonstrate one of these objectives clearly in your finished project, that's a signal - go back to the mapped stage(s) and strengthen that part of the work, rather than treating the objective as a separate box to tick. See [What Success Looks Like](overview/what-success-looks-like.md) for how these objectives connect to overall project quality.
-
-## Where to go next
-
-- [Project Guide](project-guide/index.md)
-- [Assessment Criteria](assessment/criteria.md)

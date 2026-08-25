@@ -16,7 +16,8 @@ You are expected to **justify** tool choices where it isn't obvious - see [Explo
 
 ## Constraints
 
-- The project must be completed using the **synthetic dataset(s) provided** - see [Data](data.md). Do not source or fabricate real customer data.
+- The project must be built on **real data you source yourself** from within the bank for your chosen use case - see [Data](data.md). Do not fabricate data, and do not substitute the [Example Use Case](../overview/example-use-case.md)'s dummy dataset unless your course facilitator has agreed to it as a fallback.
+- Any data you use must be handled according to your bank's data governance and privacy policies - see [Data](data.md#data-handling-and-privacy-this-is-real-data). Do not include unmasked customer-identifiable information in anything you submit, present, or store outside approved systems.
 - The project does **not** need to be deployed as a live production system. See [Consider Production Readiness](../project-guide/09-production-readiness.md) for what level of engineering maturity is expected instead.
 - `[COMPUTE / ENVIRONMENT CONSTRAINTS TO BE CONFIRMED]`
 - `[LICENSING / TOOL ACCESS CONSTRAINTS TO BE CONFIRMED]`
@@ -30,9 +31,3 @@ Where information required to complete a stage is not provided (e.g. unit econom
 3. Where it materially affects a conclusion, test how sensitive that conclusion is to the assumption (see [Size the Opportunity](../project-guide/02-size-the-opportunity.md)).
 
 This is not a loophole - it's a core skill being assessed. Real analytics work constantly requires reasoning under incomplete information.
-
-## Where to go next
-
-- [Data](data.md)
-- [Milestones](milestones.md)
-- [Open Items](../open-items.md) - the full list of unresolved constraints and policies.

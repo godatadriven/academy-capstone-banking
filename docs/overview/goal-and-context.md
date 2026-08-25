@@ -2,7 +2,7 @@
 
 ## The goal
 
-For your capstone project, you are asked to investigate a business opportunity and prepare an analytical or modelled solution that can be acted upon, and come back to us with a clear recommendation - backed by a dashboard and a presentation we can use to make a decision.
+For your capstone project, you are asked to investigate a business opportunity in your company, and prepare an analytical or modelled solution that can be acted upon. You will be required to come back with a clear recommendation, backed by a dashboard and a presentation we can use to make a decision.
 
 The capstone gives you the opportunity to apply everything from your six-month journey - from framing a business problem through to a working analytical or modelled solution and a stakeholder-ready story - by solving a **business problem, end-to-end**.
 

@@ -24,13 +24,13 @@ Before you assess quality or explore patterns, you need to know what data you ac
 
 ## Placeholders for dataset-specific detail
 
-This site cannot tell you what's actually in your dataset. Use these placeholders until your data is provided, and replace them with real content in your own documentation once you've inspected it:
+This site cannot tell you what's actually in your dataset - it depends on what you source. Use these placeholders in your own documentation until each is resolved, and replace them with real content once you've secured access and inspected the data:
 
-- `[DATASET TO BE PROVIDED]`
+- `[DATA SOURCE TO BE CONFIRMED]` - which system/team/extract this comes from
 - `[DATA DICTIONARY TO BE ADDED]`
 - `[TARGET VARIABLE TO BE CONFIRMED]`
 
-See [Data](../getting-started/data.md) for what to generally expect.
+See [Data](../getting-started/data.md) for how to source your data, and the [Example Use Case](../overview/example-use-case.md) for what a completed data dictionary looks like.
 
 ## A simple data inventory template
 

@@ -93,9 +93,10 @@ extra:
 nav:
   - Home: index.md
   - Capstone Project:
-      - Overview: 
+      - Overview:
         - Goal & Context: overview/goal-and-context.md
-        - Use Cases: overview/use-cases.md 
+        - Use Cases: overview/use-cases.md
+        - Example Use Case: overview/example-use-case.md
         - Project Journey: overview/project-journey.md
         - What Success Looks Like: overview/what-success-looks-like.md
       - Getting started:

@@ -38,7 +38,3 @@ flowchart LR
 
 !!! note "This is not a recipe to follow blindly"
     Each page tells you what's expected and why - not a script to execute without thinking. The quality of your reasoning at each stage matters more than mechanically completing the step. See [What Success Looks Like](../overview/what-success-looks-like.md).
-
-## Where this fits
-
-See [Project Journey](../overview/project-journey.md) for how these 13 stages map onto the full 20-step journey and the four build [Milestones](../getting-started/milestones.md). See [Required Deliverables](../deliverables/required-deliverables.md) for what artefact each stage must produce.

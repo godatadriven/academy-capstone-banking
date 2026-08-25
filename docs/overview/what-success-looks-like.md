@@ -42,9 +42,3 @@ Throughout the [Project Guide](../project-guide/index.md) and [Deliverables](../
 | **Could** | An optional enhancement. Good to include if you have time and it adds genuine value - not required for a complete project. |
 
 This distinction matters: don't spend a week polishing a **could** while a **must** is unfinished.
-
-## Where to go next
-
-- [Use Cases](use-cases.md) - pick your business problem.
-- [Project Journey](project-journey.md) - see the full path from problem to presentation.
-- [Definition of Done](../deliverables/definition-of-done.md) - the concrete test of whether you're finished.

@@ -16,6 +16,7 @@ A final, itemised check before you consider the project finished. This is the co
 
 ## Data
 
+- [ ] Data source identified and access confirmed - [Data](getting-started/data.md)
 - [ ] Data inventory completed - [Understand the Data](project-guide/03-understand-the-data.md)
 - [ ] Data quality assessed - [Assess Data Quality](project-guide/04-assess-data-quality.md)
 - [ ] Data-quality checks created - [Assess Data Quality](project-guide/04-assess-data-quality.md)
@@ -62,8 +63,3 @@ A final, itemised check before you consider the project finished. This is the co
 - [ ] Limitations documented - [Definition of Done](deliverables/definition-of-done.md)
 - [ ] Team contributions documented - [Team & Roles](getting-started/team-and-roles.md)
 - [ ] Final presentation ready - [Build the Story](project-guide/13-build-the-story.md)
-
-## Where to go next
-
-- [Definition of Done](deliverables/definition-of-done.md) - the qualitative version of this check.
-- [Assessment Rubric](assessment/rubric.md) - how this translates into assessed quality.

@@ -10,7 +10,7 @@ All open items on this site use one of these consistent tags:
 |---|---|
 | `[TO BE CONFIRMED]` | A decision or figure not yet finalised |
 | `[TO BE ADDED]` | Content or guidance to be written and added |
-| `[DATASET TO BE PROVIDED]` | Dataset-specific content that depends on the actual data |
+| `[DATA SOURCE TO BE CONFIRMED]` | Dataset-specific content that depends on what each team sources |
 | `[DATE TO BE ADDED]` | A calendar date |
 | `[WEIGHTING TO BE CONFIRMED]` | Assessment weighting |
 | `[ORGANISATION-SPECIFIC GUIDANCE TO BE ADDED]` | Internal process/policy content not yet supplied |
@@ -28,12 +28,12 @@ All open items on this site use one of these consistent tags:
 
 ## Data
 
+Each capstone team now sources its own data (see [Data](getting-started/data.md)), so most dataset specifics are resolved per team rather than centrally - the items below are the organisation-wide pieces still needed.
+
 | Item | Where it appears |
 |---|---|
-| Dataset(s) to be provided | [Data](getting-started/data.md), [Understand the Data](project-guide/03-understand-the-data.md) |
-| Data dictionary | [Data](getting-started/data.md), [Understand the Data](project-guide/03-understand-the-data.md) |
-| Target variable(s) | [Data](getting-started/data.md), [Understand the Data](project-guide/03-understand-the-data.md) |
-| Data access instructions | [Data](getting-started/data.md) |
+| Organisation-specific data governance / privacy guidance for using internal data in a training exercise | [Data](getting-started/data.md) |
+| Confirmation of the standard internal process for requesting a data extract (who to ask, typical turnaround) | [Data](getting-started/data.md) |
 
 ## Tools, environment & constraints
 

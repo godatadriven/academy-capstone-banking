@@ -29,6 +29,7 @@ gantt
 
 - Business problem confirmed
 - Stakeholder and decision identified
+- Data source identified and access requested (see [Data](data.md) - this is a hard dependency for Milestone 2, so start it now)
 - Driver tree and/or hypothesis tree built
 - Opportunity sized (with assumptions documented)
 
@@ -74,8 +75,3 @@ gantt
 
 !!! tip "The final two weeks are for polish, not discovery"
     If you're still forming your core findings or deciding your model approach in the final two weeks, you've started too late. Use that window to consolidate and communicate - not to do new analysis. See [Build the MVP](../project-guide/08-build-the-mvp.md) for why front-loading matters.
-
-## Where to go next
-
-- [Project Journey](../overview/project-journey.md) - how these milestones map onto the full 20-stage journey.
-- [Definition of Done](../deliverables/definition-of-done.md) - the concrete test of completeness.

@@ -36,9 +36,3 @@ Real analytics teams divide work along rough role lines, even when everyone is a
 | Visualisation/story lead | Power BI dashboard, storyboard, presentation design |
 
 These are starting points, not fixed job titles - on a small team, most people will wear two or three of these hats.
-
-## Where to go next
-
-- [Data](data.md) - what data your team will work with.
-- [Milestones](milestones.md) - the expected pacing across the programme.
-- [Frame the Problem](../project-guide/01-frame-the-problem.md) - your team's first real deliverable.

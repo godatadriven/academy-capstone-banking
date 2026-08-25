@@ -1,15 +1,26 @@
 # Use Cases
 
-Your team chooses **one** realistic banking business problem to solve end-to-end, or proposes your own subject for approval. Choose early - your use case shapes your stakeholder, your data needs, your problem type, and your opportunity sizing.
+Your team decides on **one real business problem within the bank** to solve end-to-end. This is a deliberate departure from earlier bootcamp exercises, where the problem and data were both handed to you - here, scoping a genuine problem is part of what's being assessed.
 
-!!! question "Choosing your own use case"
-    You may propose an alternative use case if it demonstrates the same end-to-end skills (business framing, opportunity sizing, EDA, modelling, business impact, dashboard, story) and is **approved** by the course team before you commit significant time to it. Bring a one-paragraph problem statement and a candidate stakeholder to the approval conversation.
+!!! info "Still stuck? See a worked example first"
+    If you want to see what a fully scoped use case looks like before picking your own, read the [Example Use Case](example-use-case.md) - a fictional, fully worked example (with a dummy dataset) that walks the whole methodology end-to-end.
 
-## Suggested use cases
+## Choosing a real use case
+
+Pick a problem that is:
+
+- **Real** - something an actual team or stakeholder at the bank genuinely cares about, not a hypothetical.
+- **Scoped to a decision** - see [Frame the Problem](../project-guide/01-frame-the-problem.md) for the difference between a business question and a business decision. "Understand our customers better" is not a use case; "decide which overdue customers to prioritise for contact" is.
+- **Backed by data you can actually get** - see [Data](../getting-started/data.md). A great use case with no realistic path to data isn't a workable capstone; check access is plausible before committing.
+- **Achievable within your timeline** - see [Milestones](../getting-started/milestones.md). Ambition is good; a problem so large it can't produce a credible answer in the time available is not.
+
+## Categories that tend to work well
+
+These are **starting points for the kind of problem to look for**, not a menu to pick from - use them to sanity-check that your own idea is the right shape and size for a capstone, or as inspiration if you're stuck.
 
 === "Credit risk modelling"
 
-    **Problem:** Predict probability of default on a loan/mortgage portfolio to support risk-based pricing or provisioning decisions.
+    **Problem shape:** Predict probability of default on a loan/mortgage portfolio to support risk-based pricing or provisioning decisions.
 
     **Typical stakeholder:** Credit risk manager, pricing team.
 
@@ -19,7 +30,7 @@ Your team chooses **one** realistic banking business problem to solve end-to-end
 
 === "Fraud detection"
 
-    **Problem:** Flag suspicious transactions in real time while managing the trade-off between customer friction (false positives) and missed fraud (false negatives).
+    **Problem shape:** Flag suspicious transactions in real time while managing the trade-off between customer friction (false positives) and missed fraud (false negatives).
 
     **Typical stakeholder:** Fraud operations lead.
 
@@ -29,7 +40,7 @@ Your team chooses **one** realistic banking business problem to solve end-to-end
 
 === "Customer churn"
 
-    **Problem:** Predict which retail banking customers are likely to leave, and identify the drivers, to inform a retention strategy.
+    **Problem shape:** Predict which retail banking customers are likely to leave, and identify the drivers, to inform a retention strategy.
 
     **Typical stakeholder:** Retention / customer experience lead.
 
@@ -39,7 +50,7 @@ Your team chooses **one** realistic banking business problem to solve end-to-end
 
 === "Next-best-action / cross-sell"
 
-    **Problem:** Predict which product a customer is likely to need next (e.g. mortgage, savings account, credit card).
+    **Problem shape:** Predict which product a customer is likely to need next (e.g. mortgage, savings account, credit card).
 
     **Typical stakeholder:** Marketing / product lead.
 
@@ -49,7 +60,7 @@ Your team chooses **one** realistic banking business problem to solve end-to-end
 
 === "Collections prioritisation"
 
-    **Problem:** Predict which overdue customers are most likely to repay if contacted, to prioritise collections effort.
+    **Problem shape:** Predict which overdue customers are most likely to repay if contacted, to prioritise collections effort. This is the theme used in the [Example Use Case](example-use-case.md).
 
     **Typical stakeholder:** Collections operations manager.
 
@@ -59,7 +70,7 @@ Your team chooses **one** realistic banking business problem to solve end-to-end
 
 === "AML transaction monitoring"
 
-    **Problem:** Detect unusual transaction patterns that may indicate money laundering.
+    **Problem shape:** Detect unusual transaction patterns that may indicate money laundering.
 
     **Typical stakeholder:** Financial crime / compliance lead.
 
@@ -67,11 +78,15 @@ Your team chooses **one** realistic banking business problem to solve end-to-end
 
     **Likely problem type:** Anomaly detection or classification, usually with severe class imbalance and a very high cost of false negatives.
 
-## Choosing between them
+## The hard parts are usually...
 
-There's no "easy mode" here - each use case has a genuinely hard part:
+The first thing you'll need to do any kind of data analysis, modeling or visualisation, is to get data. This can be a big blocker, so make your requests early and get support to receive the data you need. Don't expect to get access to everything, you will probably receive a sample dataset with which you can work.
 
-| Use case | The hard part is usually... |
+Secondly, whatever use case you choose, there will likely be some challenges along the way. This doesn't mean you've taken a wrong turn, this means that you have a chance to solve real life business problems.
+
+For example, for the above examples, common challenges can pop up in different places:
+
+| Use case shape | The hard part is usually... |
 |---|---|
 | Credit risk | Translating a probability into a pricing/provisioning decision with real financial consequences. |
 | Fraud detection | The false-positive/false-negative trade-off and severe class imbalance. |
@@ -80,9 +95,6 @@ There's no "easy mode" here - each use case has a genuinely hard part:
 | Collections | Working under limited contact capacity - ranking, not just classifying. |
 | AML | Extreme class imbalance and a very high cost of missing a true positive. |
 
-Pick the use case your team finds **most interesting to argue about** - the framing and trade-off discussions are where the real learning happens.
+## Getting your use case scoped and confirmed
 
-## Where to go next
-
-- [Data](../getting-started/data.md) - what data you can expect for your chosen use case.
-- [Frame the Problem](../project-guide/01-frame-the-problem.md) - turn your chosen use case into a concrete problem statement.
+**:material-alert-circle: Must** - before moving on to [Size the Opportunity](../project-guide/02-size-the-opportunity.md), confirm your chosen use case with your course facilitator: a one-paragraph problem statement and a candidate stakeholder is enough for a quick scope check. This isn't asking permission to be creative - it's a checkpoint to catch a use case that's too broad, too narrow, or has no realistic path to data, before your team has sunk a week into it.

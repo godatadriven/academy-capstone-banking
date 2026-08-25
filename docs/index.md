@@ -1,6 +1,6 @@
 # Data Bootcamp Capstone Project
 
-!!! warning "Note: Unfinished product - will be tailored"
+!!! warning "Note: Unfinished product - will be tailored in collaboration with the client."
     The website you are on is an incomplete version of what the final trainee handbook will look like.
     
     The purpose of this site is to give an indication of what the capstone project will entail, as well as a preview of the handbook that trainees will receive and work from.
