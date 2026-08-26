@@ -62,7 +62,7 @@
 
 ---
 
-## 3a. AI and Machine Learning Modelling
+## 3. AI and Machine Learning Modelling
 
 **Goal:** Build, evaluate and iteratively improve a machine learning model that addresses the business opportunity identified earlier in the journey.
 
@@ -91,7 +91,7 @@
 
 ---
 
-## 3b. Data Visualisation and Dashboarding
+## 4. Data Visualisation and Dashboarding
 
 **Goal:** Turn analytical findings into clear, interactive dashboards that help stakeholders understand KPIs and make better business decisions.
 
@@ -119,7 +119,7 @@
 
 ---
 
-## 4. Production-Ready Design
+## 5. Production-Ready Design
 
 **Goal:** Turn analytical or modelling work into a reproducible, maintainable and production-ready project that others can understand, run and collaborate on.
 
@@ -149,7 +149,7 @@
 
 ---
 
-## 5. Communications
+## 6. Communications
 
 **Goal:** Communicate technical work and analytical insights clearly, influence stakeholders, and translate findings into informed business decisions.
 

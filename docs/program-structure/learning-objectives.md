@@ -4,7 +4,7 @@ These are the learning objectives from your six-month bootcamp journey. The caps
 
 Each section below is mapped to the [Project Guide](../project-guide/deep-dive.md) stages where it's most directly applied.
 
-## ‣ Identifying Business Opportunities
+## 1. Identifying Business Opportunities
 
 * Map stakeholders to identify key players and influencers within an organisation
 * Facilitate ideation sessions to identify and narrow down viable business opportunities
@@ -13,7 +13,7 @@ Each section below is mapped to the [Project Guide](../project-guide/deep-dive.m
 * Identify the roles required across a project's lifecycle and define your own contribution within a team
 * Evaluate where GenAI can be applied including its limitations and risks to determine its fit for a given use case
 
-## ‣ Insights through Data Analysis
+## 2. Insights through Data Analysis
 
 * Trace data lineage to identify and source the data needed for analysis
 * Develop an analytical plan using the data analysis lifecycle, translating a business opportunity into a structured approach
@@ -22,7 +22,7 @@ Each section below is mapped to the [Project Guide](../project-guide/deep-dive.m
 * Conduct advanced analysis to test hypotheses and inform business decisions
 * Evaluate insights and reflect on your own analysis to identify gaps, bias, and next steps
 
-## ‣ AI and Machine Learning Modeling
+## 3. AI and Machine Learning Modeling
 
 * Select and apply appropriate modelling algorithms to build a simple model in Python and scikit-learn
 * Prioritise iterative improvements to progressively develop an ML project
@@ -31,7 +31,7 @@ Each section below is mapped to the [Project Guide](../project-guide/deep-dive.m
 * Explain overfitting and apply validation techniques, avoiding common pitfalls such as data leakage
 * Translate ML modelling findings into stakeholder-ready communications
 
-## ‣ Data Visualisation and Dashboarding
+## 4. Data Visualisation and Dashboarding
 
 * Create a simple dashboard in Power BI
 * Determine the key KPIs that drive business decisions
@@ -40,7 +40,7 @@ Each section below is mapped to the [Project Guide](../project-guide/deep-dive.m
 * Apply core Power BI features (drill-down/drill-through, filters, data model structures) to build self-serving dashboards
 * Create visualisations using Python for adhoc visualisations and to aid storytelling
 
-## ‣ Production-Ready Design
+## 5. Production-Ready Design
 
 * Build production-grade Power BI dashboards using star schemas, company practices, and role-based access planning
 * Design a logical data model that captures data requirements, grounded in an understanding of the end-to-end data lifecycle
@@ -49,7 +49,7 @@ Each section below is mapped to the [Project Guide](../project-guide/deep-dive.m
 * Apply logging, unit testing, and test-driven development practices to build robust, production-ready code
 * Evaluate the cost, sustainability, and data availability of a model to assess its feasibility for production
 
-## ‣ Making Business Impact
+## 6. Making Business Impact
 
 * Apply influencing techniques and the pyramid principle to craft a compelling data story that drives stakeholder investment and decision-making
 * Select the most effective visual format (Power BI or otherwise) to communicate analytical findings
