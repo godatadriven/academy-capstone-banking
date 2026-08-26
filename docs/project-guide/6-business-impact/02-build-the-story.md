@@ -1,4 +1,4 @@
-# 13. Build the Story
+# Build the Story
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Structure your communication **answer first**, then supporting arguments, then e
 
 ```mermaid
 flowchart TD
-    A["Answer first\n(the recommendation)"] --> B["Supporting arguments\n(2–4 reasons the answer holds)"]
+    A["Answer first\n(the recommendation)"] --> B["Supporting arguments\n(2-4 reasons the answer holds)"]
     B --> C["Evidence\n(the data, analysis and model\nresults behind each argument)"]
 ```
 
@@ -41,9 +41,11 @@ A simple storyboard format:
 - **Lead with the message** - open with the recommendation, not the agenda.
 - **Explain why it matters** - connect to the business context and opportunity size.
 - **Present the evidence** - the minimum evidence needed to support the argument, not everything you produced.
+- **Distinguish the best visual for the story** - pull the sharpest chart or dashboard view for each point, whether that's from Power BI or elsewhere, rather than reusing every chart you made.
 - **Explain the model appropriately** - enough for the audience to trust it, without a full technical walkthrough (see below).
-- **Quantify impact** - using the output of [Quantify Business Impact](07-quantify-business-impact.md).
+- **Quantify impact** - using the output of [Quantify Business Impact](../4-dashboards/02-quantify-business-impact.md).
 - **Acknowledge limitations** - state what you're not confident about, plainly.
+- **Document assumptions** - state the assumptions the recommendation depends on, clearly enough that a stakeholder could challenge them.
 - **Make a recommendation** - a specific, actionable proposal, not a vague "the model shows promise."
 - **Make a stakeholder ask** - what you specifically want the stakeholder to approve or decide.
 - **Explain next steps** - what happens if the stakeholder says yes.
@@ -52,6 +54,7 @@ A simple storyboard format:
 
 - Rehearse the presentation as a team before delivering it, checking timing against `[PRESENTATION LENGTH TO BE CONFIRMED]`.
 - Anticipate likely stakeholder questions (especially about limitations and risk) and prepare answers.
+- Use influencing skills deliberately - framing, pacing, and anticipating objections - not just reading findings off a slide. The goal is to move the stakeholder to act, not just to inform them.
 
 ## Adapting for a mixed technical/non-technical audience
 
@@ -59,7 +62,7 @@ A simple storyboard format:
 
 - Lead every section with the **business meaning**, with technical detail available as backup (appendix slides, or "happy to go deeper" material) rather than presented by default.
 - Explain the model conceptually (what it does, what it's based on, how confident it is) rather than mechanically (architecture, hyperparameters).
-- Use consistent, plain-language framing for metrics - connect any number back to a business consequence (see [Quantify Business Impact](07-quantify-business-impact.md)).
+- Use consistent, plain-language framing for metrics - connect any number back to a business consequence (see [Quantify Business Impact](../4-dashboards/02-quantify-business-impact.md)).
 
 ## Worked example - recommendation and ask
 
@@ -70,9 +73,9 @@ A simple storyboard format:
 
 ## What this feeds into
 
-This stage produces your final deliverable - see [Required Deliverables - Final presentation](../deliverables/required-deliverables.md#12-final-presentation) - and is the direct test of the [Definition of Done](../deliverables/definition-of-done.md).
+This stage produces your final deliverable, and is the direct test of the [Definition of Done](../../final-presentation/definition-of-done.md).
 
 ## Where to go next
 
-- [Definition of Done](../deliverables/definition-of-done.md) - confirm you can answer all eight closing questions.
+- [Definition of Done](../../final-presentation/definition-of-done.md) - confirm you can answer all the closing questions.
 - [Capstone Checklist](../checklist.md) - final check before submission.

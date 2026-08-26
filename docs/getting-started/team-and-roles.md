@@ -18,7 +18,7 @@ The capstone is a **team-based project**. This page covers what's decided and wh
 
 Whatever the final team-size and assessment policy, every capstone team is expected to:
 
-- Agree a **shared understanding** of the business problem, stakeholder and decision before dividing work - see [Frame the Problem](../project-guide/01-frame-the-problem.md).
+- Agree a **shared understanding** of the business problem, stakeholder and decision before dividing work - see [Frame the Problem](../project-guide/1-business-opps/02-business-problem.md).
 - Keep the project **coherent as one story**, even if different people worked on different stages. See [Project Journey](../overview/project-journey.md).
 - Be able to individually explain **any** part of the finished project, not just the part you personally built. Assessors may ask any team member about any stage.
 - Document **who did what**, even if the final assessment is team-based - this is required as part of [Technical Documentation](../deliverables/technical-documentation.md).

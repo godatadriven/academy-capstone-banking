@@ -10,9 +10,14 @@
 
 **Lessons / training sessions:**
 
-1. Ideation & Business scoping
-2. AI Solution Framework
-3. AI Translation and stakeholder management
+1. AI Translation: 
+    - Ideation 
+    - Business scoping
+2. AI Translation: 
+    - Hypotheses and Driver Trees
+    - AI Solution Framework
+3. AI Translation: 
+    - Stakeholder Management
 
 **Capstone Hackathon**: Ideation and use case definition
 
@@ -24,7 +29,7 @@
 
 ---
 
-## 2. Data Analysis
+## 2. Insights through Data Analysis
 
 **Goal:** Translate a business opportunity into an analytical plan, explore and analyse data, and turn findings into actionable business insights.
 
@@ -34,10 +39,18 @@
 
 **Lessons / training sessions:**
 
-1. Data Analysis with SQL
-2. Data Analysis with SQL
+1. Data Modeling
+    - Data Lifecycle
+    - Dimensional Modeling with Fact and Dimensions
+2. Data Analysis with SQL*
+    - Aggregating Data
+    - Joining Tables
 3. Data Analysis with Python
-4. Data Analysis with Python
+    - Filtering and Selecting Data
+    - Creating New Columns and Grouping
+4. Further Data Analysis with Python
+    - Joining Data
+    - Handling Complex Data Types
 
 **Capstone Hackathon**: Banking use case analysis
 
@@ -45,11 +58,11 @@
 - Data & Reporting 1
 - Masterclass Data & Reporting
 
+*The inclusion of SQL depends on the client's tool stack and requirements
+
 ---
 
-## 3a. ML Modelling
-
-*Data Scientists only*
+## 3a. AI and Machine Learning Modelling
 
 **Goal:** Build, evaluate and iteratively improve a machine learning model that addresses the business opportunity identified earlier in the journey.
 
@@ -60,8 +73,14 @@
 **Lessons / training sessions:**
 
 1. Data Science with Python
-2. Data Science with Python
+    - Choosing the right Model Algorithm
+    - Building Machine Learning Models with Python
+2. Finetuning Machine Learning Models
+    - Preprocesssing Data
+    - Hyperparameter Tuning
 3. Advanced Data Science with Python
+    - Feature Selection
+    - Feature Generation
 
 **Capstone Hackathon**: Build and evaluate an ML model
 
@@ -72,19 +91,27 @@
 
 ---
 
-## 3b. Visualisation / Power BI
-
-*Data Analysts only*
+## 3b. Data Visualisation and Dashboarding
 
 **Goal:** Turn analytical findings into clear, interactive dashboards that help stakeholders understand KPIs and make better business decisions.
 
 **Lessons / training sessions:**
 
-1. Power BI in a Day
-2. Power BI Intermediate
+1. Data Visualisation in Python
+    - Visualisation Libraries
+    - Creating Visualisations with Impact
+2. Power BI Fundamentals
+    - Power Query Editor
+    - Building a Data Model
 3. Power BI Intermediate
+    - M Language
+    - Slicers and Filters
 4. Power BI Advanced
-5. Power BI Advanced
+    - DAX Calculations
+    - Optimized Data Models
+5. Dashboarding with Purpose
+    - Dashboarding Principles
+    - Designing a Full Dashboard
 
 **Modules to reference, build upon and use at this stage:**
 - Data & Reporting 1
@@ -92,7 +119,7 @@
 
 ---
 
-## 4. Production-Ready
+## 4. Production-Ready Design
 
 **Goal:** Turn analytical or modelling work into a reproducible, maintainable and production-ready project that others can understand, run and collaborate on.
 
@@ -102,17 +129,18 @@
 
 **Lessons / training sessions:**
 
+1. Version control
+    - git and GitHub Fundamentals
+    - Collaboration
 1. Production-Ready Python
-2. Production-Ready Python
-
-**Data Scientists additionally:**
-
+    - Environments and reproducability
+    - Modularisation
 1. Production-Ready Machine Learning
-2. Production-Ready Machine Learning
-
-**Data Analysts additionally:** 
-
+    - Test-driven Programming
+    - Logging and Error Handling
 1. Power BI in Production
+    - Access and Control
+    - Self-serving Dashboards
 
 **Modules to reference, build upon and use at this stage:**
 
@@ -132,8 +160,14 @@
 **Lessons / training sessions:**
 
 1. Data Storytelling
+    - Selecting Different Charts
+    - Decluttering and Focus
 2. Data Storytelling
-3. Advanced AI Translation / Communications
+    - Building a Storyline
+    - Persuading the Audience
+3. Advanced AI Translation: 
+    - Effective Communications 
+    - Influencing Stakeholders
 
 **Modules to reference, build upon and use at this stage:**
 - Effective Communication

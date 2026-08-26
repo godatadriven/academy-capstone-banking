@@ -1,6 +1,6 @@
 # Project Journey
 
-The capstone is one coherent, end-to-end project. Each stage below **builds on the output of the previous stage** - you cannot meaningfully skip one and expect the later stages to hold together. The [Project Guide](../project-guide/index.md) walks through each stage in detail.
+The capstone is one coherent, end-to-end project. Each stage below **builds on the output of the previous stage** - you cannot meaningfully skip one and expect the later stages to hold together. The [Project Guide](../project-guide/deep-dive.md) walks through each stage in detail.
 
 ## The full journey
 
@@ -56,20 +56,13 @@ The colours group the journey into five phases that map onto the [Milestones](..
 
 ## Where each stage is covered
 
-Every stage in the diagram above has a dedicated page in the [Project Guide](../project-guide/index.md):
+Every stage in the diagram above has a dedicated page in the [Project Guide](../project-guide/deep-dive.md), organised into six groups:
 
-1. [Frame the Problem](../project-guide/01-frame-the-problem.md)
-2. [Size the Opportunity](../project-guide/02-size-the-opportunity.md)
-3. [Understand the Data](../project-guide/03-understand-the-data.md)
-4. [Assess Data Quality](../project-guide/04-assess-data-quality.md)
-5. [Explore the Data](../project-guide/05-explore-the-data.md)
-6. [Build the Model](../project-guide/06-build-the-model.md)
-7. [Quantify Business Impact](../project-guide/07-quantify-business-impact.md)
-8. [Build the MVP](../project-guide/08-build-the-mvp.md)
-9. [Consider Production Readiness](../project-guide/09-production-readiness.md)
-10. [Assess GenAI](../project-guide/10-assess-genai.md)
-11. [Assess Sustainability](../project-guide/11-assess-sustainability.md)
-12. [Build the Power BI Dashboard](../project-guide/12-power-bi-dashboard.md)
-13. [Build the Story](../project-guide/13-build-the-story.md)
+1. **Identifying Business Opportunities:** [Stakeholder In-take](../project-guide/1-business-opps/01-stakeholder-intake.md), [Business Problem Definition](../project-guide/1-business-opps/02-business-problem.md), [Hypotheses and Drivers](../project-guide/1-business-opps/03-hypotheses.md), [Size the Opportunity](../project-guide/1-business-opps/04-size-the-opportunity.md)
+2. **Data Exploration:** [Collect the Data](../project-guide/2-data-exploration/01-collect-the-data.md), [Assess Data Quality](../project-guide/2-data-exploration/02-assess-data-quality.md), [Explore the Data](../project-guide/2-data-exploration/03-explore-the-data.md)
+3. **Analytical Solution:** [Build the Model](../project-guide/3-modeling/01-build-the-model.md), [Evaluate and Finetune the Model](../project-guide/3-modeling/02-evaluate-the-model.md)
+4. **Insights and Dashboarding:** [Build the Power BI Dashboard](../project-guide/4-dashboards/01-power-bi-dashboard.md), [Quantify Business Impact](../project-guide/4-dashboards/02-quantify-business-impact.md)
+5. **Product Deployment:** [Build an MVP](../project-guide/5-production/01-build-the-mvp.md), [Production Readiness](../project-guide/5-production/02-production-readiness.md), [Assess GenAI](../project-guide/5-production/03-assess-genai.md)
+6. **Business Recommendation:** [Assess Sustainability](../project-guide/6-business-impact/01-assess-sustainability.md), [Build the Story](../project-guide/6-business-impact/02-build-the-story.md)
 
-Driver/hypothesis tree formation is covered inside stage 1; new hypotheses generated during EDA are covered inside stage 5.
+Driver/hypothesis tree formation is covered in group 1; new hypotheses generated during EDA are covered in group 2.

@@ -14,20 +14,20 @@ The project is complete when your team can confidently and specifically answer a
 8. **What should the stakeholder do next?**
 
 !!! danger "If you can't answer one of these specifically, you're not done"
-    A vague or generic answer ("the model works well" / "there's some risk involved") is a sign the underlying stage was rushed. Trace back to the relevant [Project Guide](../project-guide/index.md) stage and strengthen it - see the mapping below.
+    A vague or generic answer ("the model works well" / "there's some risk involved") is a sign the underlying stage was rushed. Trace back to the relevant [Project Guide](../project-guide/deep-dive.md) stage and strengthen it - see the mapping below.
 
 ## Where each question is answered in your project
 
 | Question | Answered by |
 |---|---|
-| 1. Business problem & why it matters | [Frame the Problem](../project-guide/01-frame-the-problem.md), [Size the Opportunity](../project-guide/02-size-the-opportunity.md) |
-| 2. Stakeholder & decision | [Frame the Problem](../project-guide/01-frame-the-problem.md) |
-| 3. What we learned from the data | [Explore the Data](../project-guide/05-explore-the-data.md) |
-| 4. Confidence in findings | [Assess Data Quality](../project-guide/04-assess-data-quality.md), [Explore the Data](../project-guide/05-explore-the-data.md) (critical reflection) |
-| 5. Does the solution work, and how do we know | [Build the Model](../project-guide/06-build-the-model.md) |
-| 6. Expected business impact | [Quantify Business Impact](../project-guide/07-quantify-business-impact.md) |
-| 7. Risks, limitations, trade-offs | [Quantify Business Impact](../project-guide/07-quantify-business-impact.md), [Assess Sustainability](../project-guide/11-assess-sustainability.md) |
-| 8. What the stakeholder should do next | [Build the Story](../project-guide/13-build-the-story.md) |
+| 1. Business problem & why it matters | [Business Problem Definition](../project-guide/1-business-opps/02-business-problem.md), [Size the Opportunity](../project-guide/1-business-opps/04-size-the-opportunity.md) |
+| 2. Stakeholder & decision | [Stakeholder In-take](../project-guide/1-business-opps/01-stakeholder-intake.md), [Business Problem Definition](../project-guide/1-business-opps/02-business-problem.md) |
+| 3. What we learned from the data | [Explore the Data](../project-guide/2-data-exploration/03-explore-the-data.md) |
+| 4. Confidence in findings | [Assess Data Quality](../project-guide/2-data-exploration/02-assess-data-quality.md), [Explore the Data](../project-guide/2-data-exploration/03-explore-the-data.md) (critical reflection) |
+| 5. Does the solution work, and how do we know | [Evaluate and Finetune the Model](../project-guide/3-modeling/02-evaluate-the-model.md) |
+| 6. Expected business impact | [Quantify Business Impact](../project-guide/4-dashboards/02-quantify-business-impact.md) |
+| 7. Risks, limitations, trade-offs | [Quantify Business Impact](../project-guide/4-dashboards/02-quantify-business-impact.md), [Assess Sustainability](../project-guide/6-business-impact/01-assess-sustainability.md) |
+| 8. What the stakeholder should do next | [Build the Story](../project-guide/6-business-impact/02-build-the-story.md) |
 
 ## The final presentation must end with a recommendation and an ask
 

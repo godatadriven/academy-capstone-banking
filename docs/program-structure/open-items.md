@@ -22,7 +22,7 @@ All open items on this site use one of these consistent tags:
 | Team size | [Team & Roles](getting-started/team-and-roles.md) |
 | Team formation approach | [Team & Roles](getting-started/team-and-roles.md) |
 | Individual vs. team assessment approach | [Team & Roles](getting-started/team-and-roles.md) |
-| Final presentation length | [Team & Roles](getting-started/team-and-roles.md), [Build the Story](project-guide/13-build-the-story.md) |
+| Final presentation length | [Team & Roles](getting-started/team-and-roles.md), [Build the Story](../project-guide/6-business-impact/02-build-the-story.md) |
 | Final presentation slide count | [Team & Roles](getting-started/team-and-roles.md) |
 | Final submission date | [Team & Roles](getting-started/team-and-roles.md) |
 
@@ -52,13 +52,13 @@ Each capstone team now sources its own data (see [Data](getting-started/data.md)
 
 | Item | Where it appears |
 |---|---|
-| Business assumptions / unit economics | [Size the Opportunity](project-guide/02-size-the-opportunity.md) |
+| Business assumptions / unit economics | [Size the Opportunity](../project-guide/1-business-opps/04-size-the-opportunity.md) |
 
 ## Organisation-specific guidance
 
 | Item | Where it appears |
 |---|---|
-| Organisation-specific Power BI guidance | [Build the Power BI Dashboard](project-guide/12-power-bi-dashboard.md) |
+| Organisation-specific Power BI guidance | [Build the Power BI Dashboard](../project-guide/4-dashboards/01-power-bi-dashboard.md) |
 
 ## Assessment
 

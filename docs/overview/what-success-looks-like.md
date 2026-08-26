@@ -33,7 +33,7 @@ A capstone that jumps straight to modelling without a framed problem, or that pr
 
 ## "Must", "should" and "could" - how to read this site
 
-Throughout the [Project Guide](../project-guide/index.md) and [Deliverables](../deliverables/required-deliverables.md), instructions are labelled:
+Throughout the [Project Guide](../project-guide/deep-dive.md) and [Final Presentation](../final-presentation/index.md), instructions are labelled:
 
 | Label | Meaning |
 |---|---|

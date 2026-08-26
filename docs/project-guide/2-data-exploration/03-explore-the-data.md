@@ -1,8 +1,8 @@
-# 5. Explore the Data
+# Explore the Data
 
 ## Purpose
 
-Exploratory data analysis (EDA) is where you test your hypotheses from [Frame the Problem](01-frame-the-problem.md) against real data, and generate new, better-informed hypotheses. Done well, EDA is the bridge between a business question and a well-formulated modelling problem. Done badly, it's an unfocused tour of every chart your notebook can produce.
+Exploratory data analysis (EDA) is where you test your hypotheses from [Hypotheses and Drivers](../1-business-opps/03-hypotheses.md) against real data, and generate new, better-informed hypotheses. Done well, EDA is the bridge between a business question and a well-formulated modelling problem. Done badly, it's an unfocused tour of every chart your notebook can produce.
 
 ## EDA must be structured, not exploratory-in-name-only
 
@@ -21,10 +21,10 @@ Exploratory data analysis (EDA) is where you test your hypotheses from [Frame th
 - **Distributions** - shape, skew, spread of key variables, including the target.
 - **Correlations** - relationships between candidate features and the target, and between features themselves (relevant for later feature selection and multicollinearity awareness).
 - **Segmentation** - how key metrics differ across meaningful groups (e.g. customer segment, product type, region).
-- **Outlier analysis** - building on [Assess Data Quality](04-assess-data-quality.md), understand whether outliers are meaningful signal or noise.
+- **Outlier analysis** - building on [Assess Data Quality](02-assess-data-quality.md), understand whether outliers are meaningful signal or noise.
 - **Missingness** - patterns in what's missing, and whether missingness itself is informative.
 - **Bias** - whether your sample or your findings might not generalise.
-- **Inconsistencies** - anything uncovered in [Assess Data Quality](04-assess-data-quality.md) that affects interpretation.
+- **Inconsistencies** - anything uncovered in [Assess Data Quality](02-assess-data-quality.md) that affects interpretation.
 - **Target behaviour** - how the target variable is distributed, and how it varies across the segments and drivers you hypothesised about.
 - **Relationships between variables** - not just each variable in isolation.
 
@@ -86,16 +86,15 @@ Findings that stop at "insight" without reaching "business impact" are not yet f
 - **What might be misinterpreted?** - could a stakeholder draw a stronger conclusion than your evidence supports?
 - **What additional data would help?** - be specific, not "more data would help."
 
-This reflection should appear in your documentation, not just in your head - see [Required Deliverables](../deliverables/required-deliverables.md#4-exploratory-data-analysis).
+This reflection should appear in your documentation, not just in your head.
 
 ## The role of EDA in what comes next
 
 EDA is not a standalone deliverable - it directly shapes:
 
-- **[Build the Model](06-build-the-model.md)** - your EDA findings inform feature selection, problem formulation, and what "good" performance would even mean.
-- **[Build the Story](13-build-the-story.md)** - your strongest, most business-relevant EDA findings often belong in the final presentation, even if no model ever uses them directly.
+- **[Build the Model](../3-modeling/01-build-the-model.md)** - your EDA findings inform feature selection, problem formulation, and what "good" performance would even mean.
+- **[Build the Story](../6-business-impact/02-build-the-story.md)** - your strongest, most business-relevant EDA findings often belong in the final presentation, even if no model ever uses them directly.
 
 ## Where to go next
 
-- [Build the Model](06-build-the-model.md)
-- Required deliverable checklist: [Required Deliverables - Exploratory Data Analysis](../deliverables/required-deliverables.md#4-exploratory-data-analysis)
+- [Build the Model](../3-modeling/01-build-the-model.md)

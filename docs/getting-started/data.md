@@ -43,7 +43,7 @@ Real internal data will very likely be messier than anything you've worked with 
 - Inconsistencies (e.g. inconsistent categories, formats, or timestamps)
 - Undocumented or ambiguous fields you'll need to chase down with whoever owns the source system
 
-This is exactly what [Assess Data Quality](../project-guide/04-assess-data-quality.md) is designed for so don't wait for someone to tell you the data is clean.
+This is exactly what [Assess Data Quality](../project-guide/2-data-exploration/02-assess-data-quality.md) is designed for so don't wait for someone to tell you the data is clean.
 
 ## If you don't have data yet, or want to see the method applied first
 
@@ -58,7 +58,7 @@ The example is illustrative only and it is not a substitute for sourcing your ow
 
 ## What to do once you receive your data
 
-1. Do **not** start modelling immediately. Start with [Understanding the Data](../project-guide/03-understand-the-data.md).
+1. Do **not** start modelling immediately. Start with [Understanding the Data](../project-guide/2-data-exploration/01-collect-the-data.md).
 2. Build a simple data inventory: what tables/files exist, what each represents, how they relate.
-3. Run the data quality checks described in [Assess Data Quality](../project-guide/04-assess-data-quality.md) before drawing any conclusions.
+3. Run the data quality checks described in [Assess Data Quality](../project-guide/2-data-exploration/02-assess-data-quality.md) before drawing any conclusions.
 4. Document anything ambiguous or undefined (e.g. an unclear column, an unconfirmed target variable) rather than guessing silently - record it as an assumption, and go back to your data source/owner to confirm where you can.

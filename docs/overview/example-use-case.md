@@ -14,7 +14,7 @@ Two situations this is for:
 
 **Northfield Bank** (fictional) has seen a rise in early-stage mortgage arrears over the last two quarters. The Head of Collections doesn't have a reliable way to tell which overdue customers are worth prioritising for proactive contact, so effort is spread evenly across the book - including customers who were always going to self-cure, and customers who needed a call weeks ago.
 
-This is the same scenario used as the worked example in [Frame the Problem](../project-guide/01-frame-the-problem.md) - read that page for how the framing below was derived.
+This is the same scenario used as the worked example in [Business Problem Definition](../project-guide/1-business-opps/02-business-problem.md) - read that page for how the framing below was derived.
 
 ### Framing
 
@@ -45,7 +45,7 @@ flowchart TD
     - Estimated uplift in recovery rate from better prioritisation: +5 percentage points (fictional assumption, sensitivity-tested at +2pp / +5pp / +9pp)
     - **Estimated opportunity:** roughly £58k–£260k per month depending on assumption, before accounting for the cost of running the model
 
-See [Size the Opportunity](../project-guide/02-size-the-opportunity.md) for how to build and sensitivity-test a real version of this.
+See [Size the Opportunity](../project-guide/1-business-opps/04-size-the-opportunity.md) for how to build and sensitivity-test a real version of this.
 
 ## The dummy dataset
 
@@ -84,11 +84,11 @@ A fictional extract from Northfield Bank's (imagined) collections system, at **o
 
 Consistent with what you should expect from your own real data (see [Data](../getting-started/data.md)), this fictional dataset is deliberately messy:
 
-- `income_band` has missing values, concentrated among customers who applied before a system migration (a **bias** risk if handled carelessly - see [Assess Data Quality](../project-guide/04-assess-data-quality.md)).
+- `income_band` has missing values, concentrated among customers who applied before a system migration (a **bias** risk if handled carelessly - see [Assess Data Quality](../project-guide/2-data-exploration/02-assess-data-quality.md)).
 - `days_past_due` has a small number of implausible negative values (a data entry/export error).
 - `last_contact_channel` uses `none` and blank/null inconsistently for "not yet contacted" depending on which source system the row came from.
 - Class imbalance: `repaid_within_30d` skews toward `false` for `days_past_due > 60`, but the dataset is dominated by early-stage (low `days_past_due`) accounts - worth checking whether that reflects the real book or a sampling artefact.
-- `contact_attempts_last_30d` is a plausible **leakage risk** if not handled carefully: a high count could reflect the collections team already having identified this account as high-priority through some other (undocumented) process - worth interrogating before using it as a feature. See [Assess Data Quality](../project-guide/04-assess-data-quality.md#target-leakage-a-specific-trap).
+- `contact_attempts_last_30d` is a plausible **leakage risk** if not handled carefully: a high count could reflect the collections team already having identified this account as high-priority through some other (undocumented) process - worth interrogating before using it as a feature. See [Assess Data Quality](../project-guide/2-data-exploration/02-assess-data-quality.md#target-leakage-a-specific-trap).
 
 ## How this maps to the full journey
 
@@ -96,7 +96,8 @@ This example only sketches the framing and the data - it deliberately stops shor
 
 | Stage | What the example shows |
 |---|---|
-| [Frame the Problem](../project-guide/01-frame-the-problem.md) | The stakeholder/decision/problem-statement table above, and the driver tree |
-| [Size the Opportunity](../project-guide/02-size-the-opportunity.md) | The sensitivity-tested opportunity estimate above |
-| [Understand the Data](../project-guide/03-understand-the-data.md) | The data dictionary above |
-| [Assess Data Quality](../project-guide/04-assess-data-quality.md) | The "realistic imperfections" list above |
+| [Business Problem Definition](../project-guide/1-business-opps/02-business-problem.md) | The stakeholder/decision/problem-statement table above |
+| [Hypotheses and Drivers](../project-guide/1-business-opps/03-hypotheses.md) | The driver tree above |
+| [Size the Opportunity](../project-guide/1-business-opps/04-size-the-opportunity.md) | The sensitivity-tested opportunity estimate above |
+| [Collect the Data](../project-guide/2-data-exploration/01-collect-the-data.md) | The data dictionary above |
+| [Assess Data Quality](../project-guide/2-data-exploration/02-assess-data-quality.md) | The "realistic imperfections" list above |

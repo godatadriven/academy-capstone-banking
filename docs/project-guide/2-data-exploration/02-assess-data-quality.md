@@ -1,8 +1,8 @@
-# 4. Assess Data Quality
+# Assess Data Quality
 
 ## Purpose
 
-Data quality is not a technical footnote - it's a business issue. A model trained on data with undetected leakage, or an insight drawn from a biased sample, leads to a bad business decision, not just a bad statistic. This stage requires you to actively look for problems rather than assume the data is fine because it loaded without errors.
+Data quality is a business issue. A model trained on data with undetected leakage, or an insight drawn from a biased sample, leads to a bad business decision. This stage requires you to actively look for problems rather than assume the data is fine because it loaded without errors.
 
 ## What you must do
 
@@ -20,7 +20,7 @@ Data quality is not a technical footnote - it's a business issue. A model traine
 
 **:material-alert: Should**
 
-- Implement simple, automated checks (a script or notebook cell you can rerun) rather than one-off manual inspection - see below.
+- Write code that checks data quality automatically (a script or notebook cell you can rerun) rather than one-off manual inspection - see below.
 - Decide and document how you'll handle each issue (e.g. impute, exclude, flag) and why - not just that you noticed it.
 
 **:material-lightbulb-outline: Could**
@@ -36,7 +36,7 @@ Every data quality decision you make has a downstream business consequence. Docu
 
 ## Simple automated checks
 
-You don't need a data quality framework - a short, rerunnable script is enough. Example checks worth writing (adapt to your actual fields):
+A short, rerunnable script is enough. Example checks worth writing (adapt to your actual fields):
 
 ```python
 # Example only - adapt field names to your actual dataset
@@ -51,7 +51,7 @@ checks = {
 
 **:material-alert-circle: Must** - run checks like these (or SQL equivalents) and report the results, not just the code.
 
-## Target leakage - a specific trap
+## Target leakage
 
 Target leakage happens when a feature is only available, or only takes a meaningful value, *because* the outcome already happened. It's dangerous precisely because it makes your model look excellent while being useless in production.
 
@@ -62,9 +62,8 @@ Target leakage happens when a feature is only available, or only takes a meaning
 
 ## What this feeds into
 
-Data quality findings directly shape [Explore the Data](05-explore-the-data.md) (you interpret patterns knowing where the data is unreliable) and [Build the Model](06-build-the-model.md) (leakage exclusions and missing-value handling decisions carry through into feature engineering).
+Data quality findings directly shape [Explore the Data](03-explore-the-data.md) (you interpret patterns knowing where the data is unreliable) and [Build the Model](../3-modeling/01-build-the-model.md) (leakage exclusions and missing-value handling decisions carry through into feature engineering).
 
 ## Where to go next
 
-- [Explore the Data](05-explore-the-data.md)
-- Required deliverable checklist: [Required Deliverables - Data understanding and quality assessment](../deliverables/required-deliverables.md#3-data-understanding-and-quality-assessment)
+- [Explore the Data](03-explore-the-data.md)

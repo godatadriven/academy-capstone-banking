@@ -10,7 +10,7 @@ Your team decides on **one real business problem within the bank** to solve end-
 Pick a problem that is:
 
 - **Real** - something an actual team or stakeholder at the bank genuinely cares about, not a hypothetical.
-- **Scoped to a decision** - see [Frame the Problem](../project-guide/01-frame-the-problem.md) for the difference between a business question and a business decision. "Understand our customers better" is not a use case; "decide which overdue customers to prioritise for contact" is.
+- **Scoped to a decision** - see [Frame the Problem](../project-guide/1-business-opps/02-business-problem.md) for the difference between a business question and a business decision. "Understand our customers better" is not a use case; "decide which overdue customers to prioritise for contact" is.
 - **Backed by data you can actually get** - see [Data](../getting-started/data.md). A great use case with no realistic path to data isn't a workable capstone; check access is plausible before committing.
 - **Achievable within your timeline** - see [Milestones](../getting-started/milestones.md). Ambition is good; a problem so large it can't produce a credible answer in the time available is not.
 
@@ -97,4 +97,4 @@ For example, for the above examples, common challenges can pop up in different p
 
 ## Getting your use case scoped and confirmed
 
-**:material-alert-circle: Must** - before moving on to [Size the Opportunity](../project-guide/02-size-the-opportunity.md), confirm your chosen use case with your course facilitator: a one-paragraph problem statement and a candidate stakeholder is enough for a quick scope check. This isn't asking permission to be creative - it's a checkpoint to catch a use case that's too broad, too narrow, or has no realistic path to data, before your team has sunk a week into it.
+**:material-alert-circle: Must** - before moving on to [Size the Opportunity](../project-guide/1-business-opps/04-size-the-opportunity.md), confirm your chosen use case with your course facilitator: a one-paragraph problem statement and a candidate stakeholder is enough for a quick scope check. This isn't asking permission to be creative - it's a checkpoint to catch a use case that's too broad, too narrow, or has no realistic path to data, before your team has sunk a week into it.

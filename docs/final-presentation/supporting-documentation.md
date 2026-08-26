@@ -1,8 +1,6 @@
 # Supporting Documentation
 
-Every capstone must ship with documentation that lets someone else understand, rerun, and extend your work. This is a direct test of the reproducibility and engineering-awareness principles. 
-
-    covered in [Consider Production Readiness](../project-guide/09-production-readiness.md).
+Every capstone must ship with documentation that lets someone else understand, rerun, and extend your work. This is a direct test of the reproducibility and engineering-awareness principles covered in [Production Readiness](../project-guide/5-production/02-production-readiness.md).
 
 ## What must be included
 
@@ -43,7 +41,7 @@ Specific enough that someone with the same data access could reproduce your key 
 
 ### Explanation of roles required to take the solution further
 
-**:material-alert-circle: Must** - a short section naming the roles/skills a real organisation would need to take this from capstone to production, connecting to the [production-readiness](../project-guide/09-production-readiness.md) discussion. For example (illustrative, not exhaustive):
+**:material-alert-circle: Must** - a short section naming the roles/skills a real organisation would need to take this from capstone to production, connecting to the [production-readiness](../project-guide/5-production/02-production-readiness.md) discussion. For example (illustrative, not exhaustive):
 
 | Role | Would be needed for |
 |---|---|

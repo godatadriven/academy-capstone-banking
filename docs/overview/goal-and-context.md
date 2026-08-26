@@ -8,19 +8,21 @@ The capstone gives you the opportunity to apply everything from your six-month j
 
 ## What does this project test?
 
+This program will allow you to integrate all Data Bootcamp competencies to work end-to-end from an ABN AMRO business problem to solution. 
+
 Specifically, the capstone tests whether you can:
 
-- Translate a vague business problem into a concrete, answerable question.
-- Reason about whether a problem is even worth solving before you start solving it.
-- Work with data that isn't perfectly clean, and know what to do about that.
-- Build an analytical or modelled solution that is good enough to act on - and know how you know that.
-- Explain your findings and your recommendation to someone who doesn't care how you built it, only what it means for the business.
+- **Translate** a business problem and technical insights into actionable stakeholder recommendations
+- **Evaluate** project feasibility by conducting ideation and business process mapping
+- **Diagnose** data quality issues and **apply** appropriate techniques to prepare messy data for analysis
+- **Design and construct** an analytical or modelled solution that produces actionable outputs 
+- **Deliver** findings and recommendations through a professional stakeholder presentation
 
 ## How the project is built
 
-The capstone is **built incrementally**, in step with your bootcamp modules. Ideally you will not leave the development until the end. Each stage of the [Project Journey](project-journey.md) corresponds to skills you develop as the programme progresses. As you complete a module, you can extend the capstone with the corresponding piece of work.
+The capstone is **built incrementally**, in parallel to your bootcamp modules. Ideally you will not leave the development until the end. Each stage of the [Project Journey](project-journey.md) corresponds to skills you develop as the programme progresses. As you complete a module, you can extend the capstone with the corresponding piece of work.
 
-The **final two weeks** are reserve for you to **finalise** what you have into a polished deliverable: a Power BI dashboard, insights and modeling analysis, and a stakeholder presentation that tells one clear, persuasive story.
+The **final two weeks** are reserve for you to **finalise** what you have into a polished deliverable: nsights and modeling analysis, a Power BI dashboard, and a stakeholder presentation that tells one clear, persuasive story.
 
 ```mermaid
 flowchart LR

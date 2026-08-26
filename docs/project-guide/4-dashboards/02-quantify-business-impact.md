@@ -1,14 +1,14 @@
-# 7. Quantify Business Impact
+# Quantify Business Impact
 
 ## Purpose
 
-A model or analysis is only useful once its performance has been translated into terms the stakeholder actually cares about: money, operations, customers, and risk. This stage is where "the model works" becomes "here's what it's worth, and here's what it costs to be wrong."
+A model or analysis is only useful once its performance has been translated into terms the stakeholder actually cares about: money, operations, customers, and risk. This stage is all about demonstation what the model is worth to the business."
 
 ## What you must do
 
 **:material-alert-circle: Must** - translate your analytical or model performance into:
 
-- **Financial impact**, where possible - connect back to your [opportunity sizing](02-size-the-opportunity.md). How much of the estimated opportunity does your solution actually capture?
+- **Financial impact** where possible connecting back to your [opportunity sizing](../1-business-opps/04-size-the-opportunity.md). How much of the estimated opportunity does your solution actually capture?
 - **Operational impact** - what changes in how people work (e.g. fewer manual reviews, a shorter contact list, a different prioritisation order)?
 - **Customer impact** - how does this affect customers, positively or negatively (e.g. more friction, better-targeted offers, faster fraud resolution)?
 - **Risk** - new risks introduced by acting on the model (e.g. regulatory, reputational, fairness).
@@ -17,7 +17,7 @@ A model or analysis is only useful once its performance has been translated into
 
 **:material-alert: Should**
 
-- Compare the value your solution actually captures against your original opportunity estimate from [Size the Opportunity](02-size-the-opportunity.md), and explain any gap.
+- Compare the value your solution actually captures against your original opportunity estimate from [Size the Opportunity](../1-business-opps/04-size-the-opportunity.md), explaining any gaps.
 - Where trade-offs exist, show the effect of moving a decision threshold (e.g. a table or chart of precision/recall or cost at different thresholds), not just one operating point.
 
 ## False positives vs. false negatives - make it concrete
@@ -54,9 +54,8 @@ There is no universal accuracy or AUC threshold that makes a model "good enough"
 
 ## What this feeds into
 
-This stage produces the numbers and trade-offs that anchor your [final recommendation](13-build-the-story.md) and your [Definition of Done](../deliverables/definition-of-done.md) answer to "what is the expected business impact?"
+This stage produces the numbers and trade-offs that anchor your [final recommendation](../6-business-impact/02-build-the-story.md) and your team's answer to "what is the expected business impact?"
 
 ## Where to go next
 
-- [Build the MVP](08-build-the-mvp.md)
-- Required deliverable checklist: [Required Deliverables - Business impact assessment](../deliverables/required-deliverables.md#6-business-impact-assessment)
+- [Build an MVP](../5-production/01-build-the-mvp.md)

@@ -1,0 +1,68 @@
+Module	Learning Objective needed
+1. Business opportunities	I can map my stakeholders to be able to identify key players
+1. Business opportunities	I can carry out ideation with a group of people to identify clear business opportunities and narrow down to the most viable options
+1. Business opportunities	I can design a driver tree, mapping metrics and levers in my organisation, to be able to identify and drive overarching metrics
+1. Business opportunities	I can design a clear hypothesis to assess the business value from a given opportunity
+1. Business opportunities	I can apply opportunity sizing process to estimate the potential value and impact of a feature, market or campaign
+1. Business opportunities	I can identify the different roles/profiles required to take a project from start to finish and I know where I belong in that team
+1. Business opportunities	I can assess where GenAI can be used, what limitations and risks it brings to determine if it belongs in a specific use case
+    External
+    
+2a. Data Analysis	I can discover where source data and read the lineage it goes through before I get it to power my data analysis
+2a. Data Analysis	I can make a concrete plan using the data analysis lifecycle before I jump into code
+2a. Data Analysis	I can translate my business opportunity into a clear analytical plan to be able to perform data analytics
+2a. Data Analysis	I can write code that checks data quality to identify issues such as missing values, bias or inconsistencies/anomalies
+2a. Data Analysis	I can use SQL or Python to gain insights from data
+2a. Data Analysis	I can translate my SQL or Python into actionable data findings
+2a. Data Analysis	I can do advanced data analysis to prove or disprove a hypothesis to inform business decisions
+2a. Data Analysis	I can evaluate insights to be able to determine new hypotheses or further data analysis paths
+2a. Data Analysis	I can reflect on my own analysis to identify gaps, bias or vulnerabilities
+    
+    
+2b. ML Modeling	I can distinguish between different modeling algorithms to pick the right one for the role
+2b. ML Modeling	I can build a simple model in Python and sklearn
+2b. ML Modeling	I can prioritise the possible improvements to enable iterative development of an ML project
+2b. ML Modeling	I can use more advanced techniques like feature selection, feature generation, hyperparameter tuning, data processing, to build a more powerful model fitting the use case in question
+2b. ML Modeling	I can calculate key metrics given different modeling strategies to provide evaluation of a model
+2b. ML Modeling	I can create visuals / reporting on key metrics in a way for stakeholders to be able to get most value from
+2b. ML Modeling	I can explain overfitting and apply validation techniques to determine whether this is a risk or not
+2b. ML Modeling	I can avoid common pitfalls such as data leakage by following best practices in ML Modeling
+2b. ML Modeling	I can translate my findings from ML Modeling to stakeholder ready comms
+    
+    
+2a. Visualisation / Power BI	I can create a simple dashboard in Power BI
+2a. Visualisation / Power BI	I can determine key KPIs to drive key business decisions
+2a. Visualisation / Power BI	I can decide on which chart to use to best reflect the insights and analysis
+2a. Visualisation / Power BI	I can develop a full dashboard with multiple insights available in a Power BI dashboard
+2a. Visualisation / Power BI	I can use key Power BI features (drill-down/drill-through, filters, basic data model structures) to create self-serving dashboards
+    
+    
+3. Production-ready	I can work with star schemas in Power BI to power fast dashboards
+3. Production-ready	I can build Power BI dashboards in line with my company's practices
+3. Production-ready	I can make a plan for roles when it comes to access in my Power BI dashboards
+3. Production-ready	I can explain the end-to-end data lifecycle at my company enabling effective data analysis or modeling in my day-to-day work
+3. Production-ready	I can explain the requirements for my data needs when it comes to my analysis or modeling
+3. Production-ready	I can build a logical data model to make clear requirements for my data needs
+3. Production-ready	I can work with git and GitHub to be able to collaborate with my team effectively
+3. Production-ready	I can structure my code, data, and environment so that someone else can reproduce my results from scratch (same inputs → same outputs)
+3. Production-ready	I can use standard and advanced documentation practices to enable efficient handover of my projects
+3. Production-ready	I can use GitHub advanced features to enable straightforward collaboration and peer reviews
+3. Production-ready	I can use modularisation to organise my code so that my coding repo is a product just as much as the outcome
+3. Production-ready	I can apply logging best practices to clearly document bugs and errors that may break in production to enable fast bug and production fixes
+3. Production-ready	I can apply unit tests and write test-driven production code to enable good coverage in my projects
+3. Production-ready	"I can assess the cost, sustainability, availability of data to evaluate feasibility of a model going into production
+Requires… I can find out how a model will be put into production to enable cost and production assessments"
+    
+    
+4. Business Impact	I can apply influencing skills while presenting to encourage investment and business decision making
+4. Business Impact	I can translate my data into a story to capture interest of my audiences
+4. Business Impact	I can distinguish the best visual to tell the story I need whether that be Power BI dashboards or other types of analysis
+4. Business Impact	I can use the pyramid principle to communicate my ideas and findings clearly and effectively
+4. Business Impact	I can translate technical topics so that a non-technical stakeholder can understand and be involved in the decision making process
+4. Business Impact	I can clearly document limitations met in a technical project
+4. Business Impact	I can clear document assumptions met in a technical project
+4. Business Impact	I can clearly explain how I structure my data analysis, using a data analysis framework
+4. Business Impact	I can work alongside AI to power my work, enabling me to increase my productivity and upper level of quality
+4. Business Impact	I can apply myself effectively and translate that working style into clear communication so that others can understand my contributions
+    
+Along the way	???

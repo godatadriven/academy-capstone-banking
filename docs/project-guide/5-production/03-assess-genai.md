@@ -1,15 +1,8 @@
-# 10. Assess GenAI
+# Assess GenAI
 
 ## Purpose
 
-This stage tests judgement, not tool use.
-
-!!! important "The requirement is not what you might expect"
-    The requirement is **not**: "You must use GenAI."
-
-    The requirement **is**: "You must assess whether GenAI would add value to this project - and justify your conclusion either way."
-
-A well-reasoned decision **not** to use GenAI is an excellent, complete answer to this stage. A poorly-reasoned decision to bolt GenAI onto part of the project because it seems expected is not.
+Assess whether GenAI would add value to this project and justify your conclusion either way.
 
 ## What you must do
 
@@ -24,10 +17,7 @@ A well-reasoned decision **not** to use GenAI is an excellent, complete answer t
 
 - Also address **governance**: if you did use GenAI output in a customer-facing or decision-facing way, who is accountable for it, and how would you check it's not systematically wrong or biased?
 - If you conclude GenAI *should* be used somewhere, actually implement and evaluate it, not just describe the idea.
-
-**:material-lightbulb-outline: Could**
-
-- Explore more than one candidate application and compare them.
+- Separately, note where GenAI tools have helped **your own** working process during the capstone (e.g. drafting, code assistance, summarising) - this is a different, and equally valid, use of GenAI from using it inside the solution itself. Be transparent about where you used it and what you checked before relying on it.
 
 ## Where GenAI plausibly fits in a project like this (examples only)
 
@@ -57,8 +47,8 @@ For each candidate use, a short table like this is often enough:
 
 ## What this feeds into
 
-Your GenAI assessment is a required, standalone deliverable - see [Required Deliverables](../deliverables/required-deliverables.md#8-genai-assessment) - and is assessed as its own dimension in the [Assessment Rubric](../assessment/rubric.md).
+Your GenAI assessment is a required, standalone deliverable and is assessed as its own dimension in the [Assessment Rubric](../../final-presentation/assessment-rubric.md).
 
 ## Where to go next
 
-- [Assess Sustainability](11-assess-sustainability.md)
+- [Assess Sustainability](../6-business-impact/01-assess-sustainability.md)
