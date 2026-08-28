@@ -5,7 +5,7 @@
    "custom" is set in mkdocs.yml and the actual brand colors are defined here -
    see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #009488;
+  --md-primary-fg-color: #003737;
   --md-primary-fg-color--light: #40afa6;
   --md-primary-fg-color--dark: #006f66;
   --md-primary-bg-color: #ffffff;
@@ -20,7 +20,7 @@
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #009488;
+  --md-primary-fg-color: #000000;
   --md-primary-fg-color--light: #40afa6;
   --md-primary-fg-color--dark: #006f66;
   --md-primary-bg-color: #ffffff;

@@ -23,9 +23,8 @@ theme:
   font:
     text: Inter
     code: Roboto Mono
-  icon:
-    logo: material/finance
-    repo: fontawesome/brands/git-alt
+
+  logo: assets/images/abn-logo.png
   features:
     - navigation.instant
     - navigation.tracking
